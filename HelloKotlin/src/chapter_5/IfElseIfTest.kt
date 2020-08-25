@@ -15,8 +15,6 @@ fun main(args: Array<String>) {
         grade = 'B'
     } else if (score in 70.0..79.9) {
         grade = 'C'
-    } else if (score in 60.0..69.9) {
-        grade = 'D'
     }
 
     println("score: $score, grade: $grade")
